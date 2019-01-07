@@ -1,0 +1,1379 @@
+2018-12-12 18:28:14 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-12-12 18:28:14 INFO  SparkContext:54 - Running Spark version 2.4.0
+2018-12-12 18:28:14 INFO  SparkContext:54 - Submitted application: SQLContextApp
+2018-12-12 18:28:14 INFO  SecurityManager:54 - Changing view acls to: david
+2018-12-12 18:28:14 INFO  SecurityManager:54 - Changing modify acls to: david
+2018-12-12 18:28:14 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-12-12 18:28:14 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-12-12 18:28:14 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(david); groups with view permissions: Set(); users  with modify permissions: Set(david); groups with modify permissions: Set()
+2018-12-12 18:28:14 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 65473.
+2018-12-12 18:28:14 INFO  SparkEnv:54 - Registering MapOutputTracker
+2018-12-12 18:28:14 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2018-12-12 18:28:14 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2018-12-12 18:28:14 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2018-12-12 18:28:14 INFO  DiskBlockManager:54 - Created local directory at /private/var/folders/l0/jr40crgn2vz64p3vyjwsttqr0000gn/T/blockmgr-88370bc8-a0aa-4028-b2f2-ced108b7a268
+2018-12-12 18:28:14 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2018-12-12 18:28:14 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2018-12-12 18:28:14 INFO  log:192 - Logging initialized @1298ms
+2018-12-12 18:28:14 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2018-12-12 18:28:14 INFO  Server:419 - Started @1358ms
+2018-12-12 18:28:14 INFO  AbstractConnector:278 - Started ServerConnector@2d35442b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-12-12 18:28:14 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d157787{/jobs,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d0402b{/jobs/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2fa7ae9{/jobs/job,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3704122f{/jobs/job/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3153ddfc{/stages,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@60afd40d{/stages/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28a2a3e7{/stages/stage,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@ea27e34{/stages/stage/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@33a2499c{/stages/pool,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@e72dba7{/stages/pool/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@33c2bd{/storage,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1dfd5f51{/storage/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3c321bdb{/storage/rdd,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@24855019{/storage/rdd/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3abd581e{/environment,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d4d8fcf{/environment/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@610db97e{/executors,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6f0628de{/executors/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3fabf088{/executors/threadDump,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1e392345{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@12f3afb5{/static,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1cefc4b3{/,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2b27cc70{/api,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6ca320ab{/jobs/job/kill,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@50d68830{/stages/stage/kill,null,AVAILABLE,@Spark}
+2018-12-12 18:28:14 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://10.68.110.37:4040
+2018-12-12 18:28:14 INFO  SparkContext:54 - Added JAR file:/Users/david/workspace/spark_proj/ImoocSparkSql/target/sparksql-1.0.0.jar at spark://10.68.110.37:65473/jars/sparksql-1.0.0.jar with timestamp 1544610494891
+2018-12-12 18:28:14 INFO  Executor:54 - Starting executor ID driver on host localhost
+2018-12-12 18:28:14 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 65474.
+2018-12-12 18:28:14 INFO  NettyBlockTransferService:54 - Server created on 10.68.110.37:65474
+2018-12-12 18:28:14 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-12-12 18:28:15 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, 10.68.110.37, 65474, None)
+2018-12-12 18:28:15 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 10.68.110.37:65474 with 366.3 MB RAM, BlockManagerId(driver, 10.68.110.37, 65474, None)
+2018-12-12 18:28:15 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, 10.68.110.37, 65474, None)
+2018-12-12 18:28:15 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, 10.68.110.37, 65474, None)
+2018-12-12 18:28:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2ca6546f{/metrics/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:15 INFO  SharedState:54 - loading hive config file: file:/usr/local/Cellar/spark-2.4.0-bin-hadoop2.7/conf/hive-site.xml
+2018-12-12 18:28:15 INFO  SharedState:54 - spark.sql.warehouse.dir is not set, but hive.metastore.warehouse.dir is set. Setting spark.sql.warehouse.dir to the value of hive.metastore.warehouse.dir ('/user/hive/warehouse').
+2018-12-12 18:28:15 INFO  SharedState:54 - Warehouse path is '/user/hive/warehouse'.
+2018-12-12 18:28:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c2869a9{/SQL,null,AVAILABLE,@Spark}
+2018-12-12 18:28:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@518cf84a{/SQL/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57ce634f{/SQL/execution,null,AVAILABLE,@Spark}
+2018-12-12 18:28:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@b8a7e43{/SQL/execution/json,null,AVAILABLE,@Spark}
+2018-12-12 18:28:15 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6892cc6f{/static/sql,null,AVAILABLE,@Spark}
+2018-12-12 18:28:15 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+2018-12-12 18:28:16 INFO  HiveUtils:54 - Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.broker.address.default does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.orc.time.counters does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.metrics.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.wm.default.pool.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.hs2.user.access does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.storage.storageDirectory does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.scheduler.preempt.independent does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.output.format.arrow does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.am.liveness.connection.timeout.ms does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.dynamic.semijoin.reduction.threshold does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.dynamic.semijoin.reduction does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.llap.min.reducer.per.executor does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.arrow.root.allocator.limit does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.use.checked.expressions does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.auto.enforce.stats does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.client.consistent.splits does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.timedout.txn.reaper.start does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.management.acl does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.delegation.token.lifetime does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.ats.hook.queue.capacity does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.bigtable.minsize.semijoin.reduction does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.allocator.alloc.min does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.dynamic.semijoin.reduction.for.mapjoin does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.orc.cache.use.soft.references does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.task.scale.memory.reserve.fraction.max does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.communicator.listener.thread-count does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.complex.types.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.wm.worker.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.container.max.java.heap.fraction does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.partitions.dump.parallelism does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.am.liveness.heartbeat.interval.ms does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.decoding.metrics.percentiles.intervals does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.uri.selection does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.strict.checks.no.partition.filter does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.txn.store.impl does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.object.cache.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.parallel.ops.in.session does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.dynamic.semijoin.reduction.for.dpp.factor does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.stats.filter.in.min.ratio does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.client.cache.initial.capacity does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.service.metrics.file.location does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.stats.ndv.estimate.percent does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.cors.allowed.methods does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.joinreducededuplication does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.num.file.cleaner.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.client.cache.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.blobstore.use.blobstore.as.scratchdir does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.allocator.mmap.path does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.compactor.max.num.delta does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.stats.fetch.bitvector does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.disable.unsafe.external.table.operations does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.materializedview.rewriting.incremental does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.materializedviews.registry.impl does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.output.service.max.pending.writes does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.event.db.notification.api.auth does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.exec.orc.delta.streaming.optimizations.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.limittranspose does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.memory.mode does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.stats.ndv.algo does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.use.spnego does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.job.max.tasks does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.service.metrics.file.frequency does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.hs2.coordinator.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.msck.repair.batch.max.retries does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.exec.orc.base.delta.ratio does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.fastpath does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.prewarm.spark.timeout does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.update.table.properties.from.serde.list does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.file.cleanup.delay.seconds does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.management.rpc.port does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.mapjoin.hybridgrace.bloomfilter does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.plugin.client.num.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.compactor.history.retention.failed does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.test.bucketcodec.version does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.initial.metadata.count.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.reexecution.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.materializedview.rewriting.time.window does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.reexecution.stats.cache.batch.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.point.lookup.min does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.cors.allowed.headers does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.service.refresh.interval.sec does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.auto.max.output.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.join.inner.residual does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.active.passive.ha.enable does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.remote.token.requires.signing does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.bucket.pruning does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.trace.always.dump does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.reexecution.stats.persist.scope does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.hash.table.inflation.factor does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.mm.allow.originals does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.auto.enforce.vectorized does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.writeset.reaper.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.compactor.compact.insert.only does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.order.columnalignment does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.output.service.send.buffer.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.llap.concurrent.queries does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.auto.allow.uber does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.txn.xlock.iow does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.rsc.conf.list does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.orc.splits.include.fileid does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.communicator.num.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.orderby.position.alias does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.communicator.connection.sleep.between.retries.ms does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.service.metrics.hadoop2.component does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.direct.sql.max.elements.in.clause does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.cache.defaultfs.only.native.fileid does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.optimize.shuffle.serde does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.indexer.segments.granularity does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.http.response.header.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.conf.internal.variable.list does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.testing.remove.logs does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.limittranspose.reductionpercentage does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.distcp.privileged.doAs does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.strict.checks.orderby.no.limit does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.orc.splits.directory.batch.ms does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.client.cache.expiry.time does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.allocator.defrag.headroom does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.notification.event.consumers does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.zookeeper.publish.configs does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.auto.convert.join.hashtable.max.entries does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.tez.sessions.init.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.authorization.storage.check.externaltable.drop does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.input.format.supports.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.execution.mode does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.client.cache.max.capacity does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.materializedview.rewriting does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.dumpdir.clean.freq does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.cbo.show.warnings does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.fshandler.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.max.bloom.filter.entries does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.materializedview.serde does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.task.scheduler.wait.queue.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.nonvector.wrapper.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.cte.materialize.threshold does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.semijoin.conversion does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.port does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.dynamic.partition.pruning does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.use.ts.stats.for.mapjoin does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.metrics.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.dump.include.acid.tables does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.logger does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.use.pam does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.reexecution.max.count does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.share.object.pools does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.update.table.properties.from.serde does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.service.metrics.codahale.reporter.classes does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.cli.tez.session.async does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.session.events.print.summary does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.vrb.queue.limit.base does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.mm.avoid.s3.globstatus does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.use.SSL does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.replica.functions.root.dir does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.dynamic.partition.pruning.max.data.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.metadata.base does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.allocator.mmap does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.coordinator.address.default does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.conf.hidden.list does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.results.cache.max.entry.lifetime does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.limit.connections.per.user does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.use.row.serde.deserialize does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.timedout.txn.reaper.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.http.compression.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.lrfu.lambda does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.metadata.db.type does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.execution.ptf.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.shared.work.extended does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.row.identifier.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.resultset.default.fetch.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.reexecution.always.collect.operator.stats does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.cm.retain does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.merge.cardinality.check does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.dumpdir.ttl does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.authentication.ldap.groupClassKey does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.compactor.history.retention.succeeded does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.use.fileid.path does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.local.time.zone does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.tez.wm.am.registry.timeout does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.active.passive.ha.registry.namespace does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.encode.slice.row.count does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.create.as.insert.only does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.am.use.fqdn does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.mv.files.thread does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.skip.compile.udf.check does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.mapjoin.memory.oversubscribe.factor does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.arrow.batch.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.notification.sequence.lock.retry.sleep.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.cm.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.sleep.interval.between.start.attempts does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.approx.max.load.tasks does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.yarn.container.mb does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.http.read.timeout does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.results.cache.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.blobstore.optimizations.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.orc.gap.cache does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.legacy.schema.for.all.serdes does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.dag.status.check.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.encode.formats does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.task.scheduler.enable.preemption does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.num.executors does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.tez.sessions.custom.queue.allowed does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.bitmap.type does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.dynamic.partition.pruning.map.join.only does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.client.password does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.scheduler.num.schedulable.tasks.per.node does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.memory.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.strict.checks.type.safety does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.async.exec.async.compile does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.auto.max.input.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.memory.oversubscription.max.executors.per.query does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.blobstore.supported.schemes does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.orc.splits.allow.synthetic.fileid does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.use.op.stats does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.trace.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.tez.session.lifetime.jitter does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.web.port does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.strict.checks.cartesian.product does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.vcpus.per.instance does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.plugin.rpc.num.handlers does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.min.bloom.filter.entries does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.partition.columns.separate does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.wm.allow.any.pool.via.jdbc does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.orc.cache.stripe.details.mem.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.scheduler.locality.delay does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.cmrootdir does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.scheduler.node.disable.backoff.factor does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.groupby.complex.types.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.am.liveness.connection.sleep.between.retries.ms does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.working.directory does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.results.cache.nontransactional.tables.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.memory.per.instance.mb does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.stats.correlated.multi.key.joins does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.db.type does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.task.scale.memory.reserve.fraction does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.merge.nway.joins does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.streaming.auto.flush.check.interval.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.encode.vector.serde.async.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.in.place.progress does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.zookeeper.connection.timeout does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.indexer.memory.rownum.max does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.reexecution.strategies does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.xsrf.filter.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.allocator.alloc.max does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.client.capability.check does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.task.scale.memory.reserve-fraction.min does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.orc.splits.ms.footer.cache.ppd.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.limit.connections.per.user.ipaddress does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.event.message.factory does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.mapjoin.memory.monitor.check.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.client.connect.retry.limit does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.xmx.headroom does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.allocator.direct does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.shared.work does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.stats.estimate does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.tez.session.lifetime does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.authentication.ldap.guidKey does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.allocator.discard.method does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.cartesian-product.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.notification.sequence.lock.max.retries does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.heap.memory.monitor.usage.threshold does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.client.user does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.encode.alloc.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.wait.queue.comparator.class.name does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.output.service.port does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.privilege.synchronizer.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.encode.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.adaptor.suppress.evaluate.exceptions does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.stats.column.autogather does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.groupby.position.alias does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.materializedview.rebuild.incremental does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.use.groupby.shuffle does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.results.cache.max.entry.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.stage.max.tasks does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.testing.short.logs does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.groupby.limit.extrastep does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.use.ssl does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.client.retry.delay.seconds does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.materializedview.fileformat does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.streaming.auto.flush.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.test.fail.compaction does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.service.metrics.class does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.explain.user does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.download.permanent.fns does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.max.historic.queries does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.execution.reducesink.new.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.compactor.history.retention.attempted does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.port does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.compactor.initiator.failed.compacts.threshold does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.operation.log.cleanup.delay does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.execution.mode does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.enable.grace.join.in.llap does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.threadpool.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.select.threshold does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.scratchdir.lock does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.dump.metadata.only does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.scheduler.timeout.seconds does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.filter.stats.reduction does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.clear.dangling.scratchdir does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.test.fail.heartbeater does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.countdistinct does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.auto.enforce.tree does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.stats.ndv.tuner does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.direct.sql.max.query.length does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.close.session.on.disconnect does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.ppd.windowing does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.host does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.orc.splits.ms.footer.cache.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.hbase.file.metadata.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.auto.convert.join.shuffle.max.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.driver.parallel.compilation does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.cache.allow.synthetic.fileid does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.plugin.acl does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.use.vector.serde.deserialize does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.exec.schema.evolution does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.direct.sql.max.elements.values.clause does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.indexer.partition.size.max does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.auto.auth does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.schema.info.class does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.yarn.shuffle.port does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.passiveWaitTimeMs does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.load.dynamic.partitions.thread does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.tez.queue.access.check does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.external.splits.temp.table.storage.format does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.row.wrapper.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.cm.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.client.retry.limit does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.resultset.serialize.in.tasks does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.constraint.notnull.enforce does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.timeout.seconds does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.service.metrics.hadoop2.frequency does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.scheduler.node.reenable.max.timeout.ms does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.max.open.txns does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.auto.convert.sortmerge.join.reduce.side does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.cli.print.escape.crlf does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.trigger.validation.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.cbo.cnf.maxnodes does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.adaptor.usage.mode does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.authentication.ldap.groupMembershipKey does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.cors.allowed.origins does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.limit.connections.per.ipaddress does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.external.splits.order.by.force.single.split does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.rpc.port does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.use.vectorized.input.format does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.client.cache.stats.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.notification.event.poll.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.transactional.concatenate.noblock does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.rootdir does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.materializedview.rewriting.strategy does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.metastore.limit.partition.request does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.async.log.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.allow.udf.load.on.demand does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.if.expr.mode does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.bloom.filter.factor does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.am-reporter.max.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.exim.test.mode does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.strict.checks.bucketing does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.results.cache.directory does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.bucket.pruning.compat does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.spnego.principal does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.task.preemption.metrics.intervals does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.shuffle.dir.watcher.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.allocator.arena.count does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.communicator.connection.timeout.ms does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.transpose.aggr.join does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.maxTries does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.use.lrfu does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.resultset.max.fetch.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.results.cache.wait.for.pending.results does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.io.sarg.cache.max.weight.mb does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.clear.dangling.scratchdir.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.sleep.time does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.compile.lock.timeout does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.remove.orderby.in.subquery does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.output.stream.timeout does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.transactional.events.mem does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.bmj.use.subcache does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.point.lookup does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.allow.permanent.fns does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.web.ssl does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.vrb.queue.limit.min does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.txn.manager.dump.lock.state.on.acquire.timeout does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.wm.pool.metrics does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.add.raw.reserved.namespace does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.resource.use.hdfs.location does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.stats.num.nulls.estimate.percent does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.mapjoin.optimized.hashtable.probe.percent does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.acid does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.scheduler.node.reenable.min.timeout.ms does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.validate.acls does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.support.special.characters.tablename does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.zk.sm.session.timeout does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.encode.vector.serde.enabled does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.ptf.max.memory.buffering.batch.count does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.dynamic.partition.hashjoin does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.task.scheduler.am.registry does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.exec.copyfile.maxnumfiles does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.overlord.address.default does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.remove.sq_count_check does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.druid.http.numConnection does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.enable.cors does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.vectorized.row.serde.inputformat.excludes does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.encode.slice.lrr does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.reexecution.stats.cache.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.thrift.http.request.header.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.server2.webui.max.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.optimize.limittranspose.reductiontuples does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.test.rollbacktxn does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.acl does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.combine.equivalent.work.optimization does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.enable.memory.manager does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.msck.repair.batch.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.stats.filter.in.factor does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.exec.input.listing.max.threads does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.lock.query.string.max.length does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.io.track.cache.usage does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.llap.daemon.rpc.num.handlers does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.count.open.txns.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.use.orc.codec.pool does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.txn.heartbeat.threadpool.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.query.results.cache.max.size does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.spark.exec.inplace.progress does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.repl.bootstrap.dump.open.txn.timeout does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.msck.path.validation does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.compactor.history.reaper.interval does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.txn.strict.locking.mode does not exist
+2018-12-12 18:28:16 WARN  HiveConf:2753 - HiveConf of name hive.tez.input.generate.consistent.splits does not exist
+2018-12-12 18:28:16 INFO  HiveMetaStore:589 - 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+2018-12-12 18:28:16 INFO  ObjectStore:289 - ObjectStore, initialize called
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateColumns unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateConstraints unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.cache.level2 unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.autoCreateAll unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateTables unknown - will be ignored
+2018-12-12 18:28:16 WARN  HiveMetaStore:622 - Retrying creating default database after error: Error creating transactional connection factory
+javax.jdo.JDOFatalInternalException: Error creating transactional connection factory
+	at org.datanucleus.api.jdo.NucleusJDOHelper.getJDOExceptionForNucleusException(NucleusJDOHelper.java:587)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:788)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.createPersistenceManagerFactory(JDOPersistenceManagerFactory.java:333)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.getPersistenceManagerFactory(JDOPersistenceManagerFactory.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.jdo.JDOHelper$16.run(JDOHelper.java:1965)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.jdo.JDOHelper.invoke(JDOHelper.java:1960)
+	at javax.jdo.JDOHelper.invokeGetPersistenceManagerFactoryOnImplementation(JDOHelper.java:1166)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:808)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:701)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPMF(ObjectStore.java:365)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPersistenceManager(ObjectStore.java:394)
+	at org.apache.hadoop.hive.metastore.ObjectStore.initialize(ObjectStore.java:291)
+	at org.apache.hadoop.hive.metastore.ObjectStore.setConf(ObjectStore.java:258)
+	at org.apache.hadoop.util.ReflectionUtils.setConf(ReflectionUtils.java:76)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:136)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.<init>(RawStoreProxy.java:57)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.getProxy(RawStoreProxy.java:66)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.newRawStore(HiveMetaStore.java:593)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.getMS(HiveMetaStore.java:571)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.createDefaultDB(HiveMetaStore.java:620)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.init(HiveMetaStore.java:461)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.<init>(RetryingHMSHandler.java:66)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.getProxy(RetryingHMSHandler.java:72)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore.newRetryingHMSHandler(HiveMetaStore.java:5762)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.<init>(HiveMetaStoreClient.java:199)
+	at org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient.<init>(SessionHiveMetaStoreClient.java:74)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1521)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.<init>(RetryingMetaStoreClient.java:86)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:132)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:104)
+	at org.apache.hadoop.hive.ql.metadata.Hive.createMetaStoreClient(Hive.java:3005)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getMSC(Hive.java:3024)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllDatabases(Hive.java:1234)
+	at org.apache.hadoop.hive.ql.metadata.Hive.reloadFunctions(Hive.java:174)
+	at org.apache.hadoop.hive.ql.metadata.Hive.<clinit>(Hive.java:166)
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:503)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.newState(HiveClientImpl.scala:183)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.<init>(HiveClientImpl.scala:117)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.spark.sql.hive.client.IsolatedClientLoader.createClient(IsolatedClientLoader.scala:272)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:384)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:286)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client$lzycompute(HiveExternalCatalog.scala:66)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client(HiveExternalCatalog.scala:65)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply$mcZ$sp(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:97)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.databaseExists(HiveExternalCatalog.scala:214)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog$lzycompute(SharedState.scala:114)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog(SharedState.scala:102)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager$lzycompute(SharedState.scala:141)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager(SharedState.scala:136)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager$lzycompute(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.lookupRelation(SessionCatalog.scala:696)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveRelations$$lookupTableFromCatalog(Analyzer.scala:730)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.resolveRelation(Analyzer.scala:685)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:715)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:89)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:194)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$class.resolveOperatorsUp(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:29)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:654)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:87)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:84)
+	at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.foldLeft(List.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:127)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:121)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:106)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:628)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:624)
+	at org.apache.spark.sql.SQLContext.table(SQLContext.scala:703)
+	at com.imooc.spark.HiveContextApp$.main(HiveContextApp.scala:16)
+	at com.imooc.spark.HiveContextApp.main(HiveContextApp.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:849)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:167)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:195)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:86)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:924)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:933)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+NestedThrowablesStackTrace:
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:631)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.store.AbstractStoreManager.registerConnectionFactory(AbstractStoreManager.java:282)
+	at org.datanucleus.store.AbstractStoreManager.<init>(AbstractStoreManager.java:240)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:286)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:631)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.NucleusContext.createStoreManagerForProperties(NucleusContext.java:1187)
+	at org.datanucleus.NucleusContext.initialise(NucleusContext.java:356)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:775)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.createPersistenceManagerFactory(JDOPersistenceManagerFactory.java:333)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.getPersistenceManagerFactory(JDOPersistenceManagerFactory.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.jdo.JDOHelper$16.run(JDOHelper.java:1965)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.jdo.JDOHelper.invoke(JDOHelper.java:1960)
+	at javax.jdo.JDOHelper.invokeGetPersistenceManagerFactoryOnImplementation(JDOHelper.java:1166)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:808)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:701)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPMF(ObjectStore.java:365)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPersistenceManager(ObjectStore.java:394)
+	at org.apache.hadoop.hive.metastore.ObjectStore.initialize(ObjectStore.java:291)
+	at org.apache.hadoop.hive.metastore.ObjectStore.setConf(ObjectStore.java:258)
+	at org.apache.hadoop.util.ReflectionUtils.setConf(ReflectionUtils.java:76)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:136)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.<init>(RawStoreProxy.java:57)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.getProxy(RawStoreProxy.java:66)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.newRawStore(HiveMetaStore.java:593)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.getMS(HiveMetaStore.java:571)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.createDefaultDB(HiveMetaStore.java:620)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.init(HiveMetaStore.java:461)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.<init>(RetryingHMSHandler.java:66)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.getProxy(RetryingHMSHandler.java:72)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore.newRetryingHMSHandler(HiveMetaStore.java:5762)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.<init>(HiveMetaStoreClient.java:199)
+	at org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient.<init>(SessionHiveMetaStoreClient.java:74)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1521)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.<init>(RetryingMetaStoreClient.java:86)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:132)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:104)
+	at org.apache.hadoop.hive.ql.metadata.Hive.createMetaStoreClient(Hive.java:3005)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getMSC(Hive.java:3024)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllDatabases(Hive.java:1234)
+	at org.apache.hadoop.hive.ql.metadata.Hive.reloadFunctions(Hive.java:174)
+	at org.apache.hadoop.hive.ql.metadata.Hive.<clinit>(Hive.java:166)
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:503)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.newState(HiveClientImpl.scala:183)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.<init>(HiveClientImpl.scala:117)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.spark.sql.hive.client.IsolatedClientLoader.createClient(IsolatedClientLoader.scala:272)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:384)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:286)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client$lzycompute(HiveExternalCatalog.scala:66)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client(HiveExternalCatalog.scala:65)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply$mcZ$sp(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:97)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.databaseExists(HiveExternalCatalog.scala:214)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog$lzycompute(SharedState.scala:114)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog(SharedState.scala:102)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager$lzycompute(SharedState.scala:141)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager(SharedState.scala:136)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager$lzycompute(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.lookupRelation(SessionCatalog.scala:696)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveRelations$$lookupTableFromCatalog(Analyzer.scala:730)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.resolveRelation(Analyzer.scala:685)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:715)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:89)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:194)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$class.resolveOperatorsUp(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:29)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:654)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:87)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:84)
+	at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.foldLeft(List.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:127)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:121)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:106)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:628)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:624)
+	at org.apache.spark.sql.SQLContext.table(SQLContext.scala:703)
+	at com.imooc.spark.HiveContextApp$.main(HiveContextApp.scala:16)
+	at com.imooc.spark.HiveContextApp.main(HiveContextApp.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:849)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:167)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:195)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:86)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:924)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:933)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+Caused by: org.datanucleus.exceptions.NucleusException: Attempt to invoke the "HikariCP" plugin to create a ConnectionPool gave an error : The connection pool plugin of type "HikariCP" was not found in the CLASSPATH!
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.generateDataSources(ConnectionFactoryImpl.java:259)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.initialiseDataSources(ConnectionFactoryImpl.java:131)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.<init>(ConnectionFactoryImpl.java:85)
+	... 135 more
+Caused by: org.datanucleus.exceptions.NucleusUserException: The connection pool plugin of type "HikariCP" was not found in the CLASSPATH!
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.generateDataSources(ConnectionFactoryImpl.java:234)
+	... 137 more
+2018-12-12 18:28:16 INFO  HiveMetaStore:589 - 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+2018-12-12 18:28:16 INFO  ObjectStore:289 - ObjectStore, initialize called
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateColumns unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateConstraints unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.cache.level2 unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.autoCreateAll unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateTables unknown - will be ignored
+2018-12-12 18:28:16 WARN  Hive:168 - Failed to access metastore. This class should not accessed in runtime.
+org.apache.hadoop.hive.ql.metadata.HiveException: java.lang.RuntimeException: Unable to instantiate org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllDatabases(Hive.java:1236)
+	at org.apache.hadoop.hive.ql.metadata.Hive.reloadFunctions(Hive.java:174)
+	at org.apache.hadoop.hive.ql.metadata.Hive.<clinit>(Hive.java:166)
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:503)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.newState(HiveClientImpl.scala:183)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.<init>(HiveClientImpl.scala:117)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.spark.sql.hive.client.IsolatedClientLoader.createClient(IsolatedClientLoader.scala:272)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:384)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:286)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client$lzycompute(HiveExternalCatalog.scala:66)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client(HiveExternalCatalog.scala:65)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply$mcZ$sp(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:97)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.databaseExists(HiveExternalCatalog.scala:214)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog$lzycompute(SharedState.scala:114)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog(SharedState.scala:102)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager$lzycompute(SharedState.scala:141)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager(SharedState.scala:136)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager$lzycompute(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.lookupRelation(SessionCatalog.scala:696)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveRelations$$lookupTableFromCatalog(Analyzer.scala:730)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.resolveRelation(Analyzer.scala:685)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:715)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:89)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:194)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$class.resolveOperatorsUp(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:29)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:654)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:87)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:84)
+	at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.foldLeft(List.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:127)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:121)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:106)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:628)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:624)
+	at org.apache.spark.sql.SQLContext.table(SQLContext.scala:703)
+	at com.imooc.spark.HiveContextApp$.main(HiveContextApp.scala:16)
+	at com.imooc.spark.HiveContextApp.main(HiveContextApp.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:849)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:167)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:195)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:86)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:924)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:933)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+Caused by: java.lang.RuntimeException: Unable to instantiate org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1523)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.<init>(RetryingMetaStoreClient.java:86)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:132)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:104)
+	at org.apache.hadoop.hive.ql.metadata.Hive.createMetaStoreClient(Hive.java:3005)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getMSC(Hive.java:3024)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getAllDatabases(Hive.java:1234)
+	... 77 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1521)
+	... 83 more
+Caused by: javax.jdo.JDOFatalInternalException: Error creating transactional connection factory
+NestedThrowables:
+java.lang.reflect.InvocationTargetException
+	at org.datanucleus.api.jdo.NucleusJDOHelper.getJDOExceptionForNucleusException(NucleusJDOHelper.java:587)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:788)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.createPersistenceManagerFactory(JDOPersistenceManagerFactory.java:333)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.getPersistenceManagerFactory(JDOPersistenceManagerFactory.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.jdo.JDOHelper$16.run(JDOHelper.java:1965)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.jdo.JDOHelper.invoke(JDOHelper.java:1960)
+	at javax.jdo.JDOHelper.invokeGetPersistenceManagerFactoryOnImplementation(JDOHelper.java:1166)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:808)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:701)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPMF(ObjectStore.java:365)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPersistenceManager(ObjectStore.java:394)
+	at org.apache.hadoop.hive.metastore.ObjectStore.initialize(ObjectStore.java:291)
+	at org.apache.hadoop.hive.metastore.ObjectStore.setConf(ObjectStore.java:258)
+	at org.apache.hadoop.util.ReflectionUtils.setConf(ReflectionUtils.java:76)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:136)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.<init>(RawStoreProxy.java:57)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.getProxy(RawStoreProxy.java:66)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.newRawStore(HiveMetaStore.java:593)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.getMS(HiveMetaStore.java:571)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.createDefaultDB(HiveMetaStore.java:624)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.init(HiveMetaStore.java:461)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.<init>(RetryingHMSHandler.java:66)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.getProxy(RetryingHMSHandler.java:72)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore.newRetryingHMSHandler(HiveMetaStore.java:5762)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.<init>(HiveMetaStoreClient.java:199)
+	at org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient.<init>(SessionHiveMetaStoreClient.java:74)
+	... 88 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:631)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.store.AbstractStoreManager.registerConnectionFactory(AbstractStoreManager.java:282)
+	at org.datanucleus.store.AbstractStoreManager.<init>(AbstractStoreManager.java:240)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:286)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:631)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.NucleusContext.createStoreManagerForProperties(NucleusContext.java:1187)
+	at org.datanucleus.NucleusContext.initialise(NucleusContext.java:356)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:775)
+	... 117 more
+Caused by: org.datanucleus.exceptions.NucleusException: Attempt to invoke the "HikariCP" plugin to create a ConnectionPool gave an error : The connection pool plugin of type "HikariCP" was not found in the CLASSPATH!
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.generateDataSources(ConnectionFactoryImpl.java:259)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.initialiseDataSources(ConnectionFactoryImpl.java:131)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.<init>(ConnectionFactoryImpl.java:85)
+	... 135 more
+Caused by: org.datanucleus.exceptions.NucleusUserException: The connection pool plugin of type "HikariCP" was not found in the CLASSPATH!
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.generateDataSources(ConnectionFactoryImpl.java:234)
+	... 137 more
+2018-12-12 18:28:16 INFO  HiveMetaStore:589 - 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+2018-12-12 18:28:16 INFO  ObjectStore:289 - ObjectStore, initialize called
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateColumns unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateConstraints unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.cache.level2 unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.autoCreateAll unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateTables unknown - will be ignored
+2018-12-12 18:28:16 WARN  HiveMetaStore:622 - Retrying creating default database after error: Error creating transactional connection factory
+javax.jdo.JDOFatalInternalException: Error creating transactional connection factory
+	at org.datanucleus.api.jdo.NucleusJDOHelper.getJDOExceptionForNucleusException(NucleusJDOHelper.java:587)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:788)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.createPersistenceManagerFactory(JDOPersistenceManagerFactory.java:333)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.getPersistenceManagerFactory(JDOPersistenceManagerFactory.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.jdo.JDOHelper$16.run(JDOHelper.java:1965)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.jdo.JDOHelper.invoke(JDOHelper.java:1960)
+	at javax.jdo.JDOHelper.invokeGetPersistenceManagerFactoryOnImplementation(JDOHelper.java:1166)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:808)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:701)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPMF(ObjectStore.java:365)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPersistenceManager(ObjectStore.java:394)
+	at org.apache.hadoop.hive.metastore.ObjectStore.initialize(ObjectStore.java:291)
+	at org.apache.hadoop.hive.metastore.ObjectStore.setConf(ObjectStore.java:258)
+	at org.apache.hadoop.util.ReflectionUtils.setConf(ReflectionUtils.java:76)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:136)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.<init>(RawStoreProxy.java:57)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.getProxy(RawStoreProxy.java:66)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.newRawStore(HiveMetaStore.java:593)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.getMS(HiveMetaStore.java:571)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.createDefaultDB(HiveMetaStore.java:620)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.init(HiveMetaStore.java:461)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.<init>(RetryingHMSHandler.java:66)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.getProxy(RetryingHMSHandler.java:72)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore.newRetryingHMSHandler(HiveMetaStore.java:5762)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.<init>(HiveMetaStoreClient.java:199)
+	at org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient.<init>(SessionHiveMetaStoreClient.java:74)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1521)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.<init>(RetryingMetaStoreClient.java:86)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:132)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:104)
+	at org.apache.hadoop.hive.ql.metadata.Hive.createMetaStoreClient(Hive.java:3005)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getMSC(Hive.java:3024)
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:503)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.newState(HiveClientImpl.scala:183)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.<init>(HiveClientImpl.scala:117)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.spark.sql.hive.client.IsolatedClientLoader.createClient(IsolatedClientLoader.scala:272)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:384)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:286)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client$lzycompute(HiveExternalCatalog.scala:66)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client(HiveExternalCatalog.scala:65)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply$mcZ$sp(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:97)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.databaseExists(HiveExternalCatalog.scala:214)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog$lzycompute(SharedState.scala:114)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog(SharedState.scala:102)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager$lzycompute(SharedState.scala:141)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager(SharedState.scala:136)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager$lzycompute(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.lookupRelation(SessionCatalog.scala:696)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveRelations$$lookupTableFromCatalog(Analyzer.scala:730)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.resolveRelation(Analyzer.scala:685)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:715)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:89)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:194)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$class.resolveOperatorsUp(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:29)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:654)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:87)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:84)
+	at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.foldLeft(List.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:127)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:121)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:106)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:628)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:624)
+	at org.apache.spark.sql.SQLContext.table(SQLContext.scala:703)
+	at com.imooc.spark.HiveContextApp$.main(HiveContextApp.scala:16)
+	at com.imooc.spark.HiveContextApp.main(HiveContextApp.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:849)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:167)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:195)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:86)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:924)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:933)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+NestedThrowablesStackTrace:
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:631)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.store.AbstractStoreManager.registerConnectionFactory(AbstractStoreManager.java:282)
+	at org.datanucleus.store.AbstractStoreManager.<init>(AbstractStoreManager.java:240)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:286)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:631)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.NucleusContext.createStoreManagerForProperties(NucleusContext.java:1187)
+	at org.datanucleus.NucleusContext.initialise(NucleusContext.java:356)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:775)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.createPersistenceManagerFactory(JDOPersistenceManagerFactory.java:333)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.getPersistenceManagerFactory(JDOPersistenceManagerFactory.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.jdo.JDOHelper$16.run(JDOHelper.java:1965)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.jdo.JDOHelper.invoke(JDOHelper.java:1960)
+	at javax.jdo.JDOHelper.invokeGetPersistenceManagerFactoryOnImplementation(JDOHelper.java:1166)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:808)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:701)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPMF(ObjectStore.java:365)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPersistenceManager(ObjectStore.java:394)
+	at org.apache.hadoop.hive.metastore.ObjectStore.initialize(ObjectStore.java:291)
+	at org.apache.hadoop.hive.metastore.ObjectStore.setConf(ObjectStore.java:258)
+	at org.apache.hadoop.util.ReflectionUtils.setConf(ReflectionUtils.java:76)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:136)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.<init>(RawStoreProxy.java:57)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.getProxy(RawStoreProxy.java:66)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.newRawStore(HiveMetaStore.java:593)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.getMS(HiveMetaStore.java:571)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.createDefaultDB(HiveMetaStore.java:620)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.init(HiveMetaStore.java:461)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.<init>(RetryingHMSHandler.java:66)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.getProxy(RetryingHMSHandler.java:72)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore.newRetryingHMSHandler(HiveMetaStore.java:5762)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.<init>(HiveMetaStoreClient.java:199)
+	at org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient.<init>(SessionHiveMetaStoreClient.java:74)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1521)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.<init>(RetryingMetaStoreClient.java:86)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:132)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:104)
+	at org.apache.hadoop.hive.ql.metadata.Hive.createMetaStoreClient(Hive.java:3005)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getMSC(Hive.java:3024)
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:503)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.newState(HiveClientImpl.scala:183)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.<init>(HiveClientImpl.scala:117)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.spark.sql.hive.client.IsolatedClientLoader.createClient(IsolatedClientLoader.scala:272)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:384)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:286)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client$lzycompute(HiveExternalCatalog.scala:66)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client(HiveExternalCatalog.scala:65)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply$mcZ$sp(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:97)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.databaseExists(HiveExternalCatalog.scala:214)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog$lzycompute(SharedState.scala:114)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog(SharedState.scala:102)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager$lzycompute(SharedState.scala:141)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager(SharedState.scala:136)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager$lzycompute(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.lookupRelation(SessionCatalog.scala:696)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveRelations$$lookupTableFromCatalog(Analyzer.scala:730)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.resolveRelation(Analyzer.scala:685)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:715)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:89)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:194)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$class.resolveOperatorsUp(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:29)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:654)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:87)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:84)
+	at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.foldLeft(List.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:127)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:121)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:106)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:628)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:624)
+	at org.apache.spark.sql.SQLContext.table(SQLContext.scala:703)
+	at com.imooc.spark.HiveContextApp$.main(HiveContextApp.scala:16)
+	at com.imooc.spark.HiveContextApp.main(HiveContextApp.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:849)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:167)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:195)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:86)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:924)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:933)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+Caused by: org.datanucleus.exceptions.NucleusException: Attempt to invoke the "HikariCP" plugin to create a ConnectionPool gave an error : The connection pool plugin of type "HikariCP" was not found in the CLASSPATH!
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.generateDataSources(ConnectionFactoryImpl.java:259)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.initialiseDataSources(ConnectionFactoryImpl.java:131)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.<init>(ConnectionFactoryImpl.java:85)
+	... 132 more
+Caused by: org.datanucleus.exceptions.NucleusUserException: The connection pool plugin of type "HikariCP" was not found in the CLASSPATH!
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.generateDataSources(ConnectionFactoryImpl.java:234)
+	... 134 more
+2018-12-12 18:28:16 INFO  HiveMetaStore:589 - 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+2018-12-12 18:28:16 INFO  ObjectStore:289 - ObjectStore, initialize called
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateColumns unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateConstraints unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.cache.level2 unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.autoCreateAll unknown - will be ignored
+2018-12-12 18:28:16 INFO  Persistence:77 - Property datanucleus.schema.validateTables unknown - will be ignored
+Exception in thread "main" org.apache.spark.sql.AnalysisException: java.lang.RuntimeException: java.lang.RuntimeException: Unable to instantiate org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient;
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:106)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.databaseExists(HiveExternalCatalog.scala:214)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog$lzycompute(SharedState.scala:114)
+	at org.apache.spark.sql.internal.SharedState.externalCatalog(SharedState.scala:102)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager$lzycompute(SharedState.scala:141)
+	at org.apache.spark.sql.internal.SharedState.globalTempViewManager(SharedState.scala:136)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.hive.HiveSessionStateBuilder$$anonfun$2.apply(HiveSessionStateBuilder.scala:55)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager$lzycompute(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.globalTempViewManager(SessionCatalog.scala:91)
+	at org.apache.spark.sql.catalyst.catalog.SessionCatalog.lookupRelation(SessionCatalog.scala:696)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveRelations$$lookupTableFromCatalog(Analyzer.scala:730)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.resolveRelation(Analyzer.scala:685)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:715)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$$anonfun$apply$8.applyOrElse(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:89)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:194)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$class.resolveOperatorsUp(AnalysisHelper.scala:86)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:29)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:708)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveRelations$.apply(Analyzer.scala:654)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:87)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:84)
+	at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+	at scala.collection.immutable.List.foldLeft(List.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:84)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:76)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:127)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:121)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:106)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:628)
+	at org.apache.spark.sql.SparkSession.table(SparkSession.scala:624)
+	at org.apache.spark.sql.SQLContext.table(SQLContext.scala:703)
+	at com.imooc.spark.HiveContextApp$.main(HiveContextApp.scala:16)
+	at com.imooc.spark.HiveContextApp.main(HiveContextApp.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:849)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:167)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:195)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:86)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:924)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:933)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: Unable to instantiate org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:522)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.newState(HiveClientImpl.scala:183)
+	at org.apache.spark.sql.hive.client.HiveClientImpl.<init>(HiveClientImpl.scala:117)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.spark.sql.hive.client.IsolatedClientLoader.createClient(IsolatedClientLoader.scala:272)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:384)
+	at org.apache.spark.sql.hive.HiveUtils$.newClientForMetadata(HiveUtils.scala:286)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client$lzycompute(HiveExternalCatalog.scala:66)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.client(HiveExternalCatalog.scala:65)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply$mcZ$sp(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog$$anonfun$databaseExists$1.apply(HiveExternalCatalog.scala:215)
+	at org.apache.spark.sql.hive.HiveExternalCatalog.withClient(HiveExternalCatalog.scala:97)
+	... 59 more
+Caused by: java.lang.RuntimeException: Unable to instantiate org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1523)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.<init>(RetryingMetaStoreClient.java:86)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:132)
+	at org.apache.hadoop.hive.metastore.RetryingMetaStoreClient.getProxy(RetryingMetaStoreClient.java:104)
+	at org.apache.hadoop.hive.ql.metadata.Hive.createMetaStoreClient(Hive.java:3005)
+	at org.apache.hadoop.hive.ql.metadata.Hive.getMSC(Hive.java:3024)
+	at org.apache.hadoop.hive.ql.session.SessionState.start(SessionState.java:503)
+	... 74 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(MetaStoreUtils.java:1521)
+	... 80 more
+Caused by: javax.jdo.JDOFatalInternalException: Error creating transactional connection factory
+NestedThrowables:
+java.lang.reflect.InvocationTargetException
+	at org.datanucleus.api.jdo.NucleusJDOHelper.getJDOExceptionForNucleusException(NucleusJDOHelper.java:587)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:788)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.createPersistenceManagerFactory(JDOPersistenceManagerFactory.java:333)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.getPersistenceManagerFactory(JDOPersistenceManagerFactory.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.jdo.JDOHelper$16.run(JDOHelper.java:1965)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.jdo.JDOHelper.invoke(JDOHelper.java:1960)
+	at javax.jdo.JDOHelper.invokeGetPersistenceManagerFactoryOnImplementation(JDOHelper.java:1166)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:808)
+	at javax.jdo.JDOHelper.getPersistenceManagerFactory(JDOHelper.java:701)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPMF(ObjectStore.java:365)
+	at org.apache.hadoop.hive.metastore.ObjectStore.getPersistenceManager(ObjectStore.java:394)
+	at org.apache.hadoop.hive.metastore.ObjectStore.initialize(ObjectStore.java:291)
+	at org.apache.hadoop.hive.metastore.ObjectStore.setConf(ObjectStore.java:258)
+	at org.apache.hadoop.util.ReflectionUtils.setConf(ReflectionUtils.java:76)
+	at org.apache.hadoop.util.ReflectionUtils.newInstance(ReflectionUtils.java:136)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.<init>(RawStoreProxy.java:57)
+	at org.apache.hadoop.hive.metastore.RawStoreProxy.getProxy(RawStoreProxy.java:66)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.newRawStore(HiveMetaStore.java:593)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.getMS(HiveMetaStore.java:571)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.createDefaultDB(HiveMetaStore.java:624)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore$HMSHandler.init(HiveMetaStore.java:461)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.<init>(RetryingHMSHandler.java:66)
+	at org.apache.hadoop.hive.metastore.RetryingHMSHandler.getProxy(RetryingHMSHandler.java:72)
+	at org.apache.hadoop.hive.metastore.HiveMetaStore.newRetryingHMSHandler(HiveMetaStore.java:5762)
+	at org.apache.hadoop.hive.metastore.HiveMetaStoreClient.<init>(HiveMetaStoreClient.java:199)
+	at org.apache.hadoop.hive.ql.metadata.SessionHiveMetaStoreClient.<init>(SessionHiveMetaStoreClient.java:74)
+	... 85 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:631)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:325)
+	at org.datanucleus.store.AbstractStoreManager.registerConnectionFactory(AbstractStoreManager.java:282)
+	at org.datanucleus.store.AbstractStoreManager.<init>(AbstractStoreManager.java:240)
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.<init>(RDBMSStoreManager.java:286)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.datanucleus.plugin.NonManagedPluginRegistry.createExecutableExtension(NonManagedPluginRegistry.java:631)
+	at org.datanucleus.plugin.PluginManager.createExecutableExtension(PluginManager.java:301)
+	at org.datanucleus.NucleusContext.createStoreManagerForProperties(NucleusContext.java:1187)
+	at org.datanucleus.NucleusContext.initialise(NucleusContext.java:356)
+	at org.datanucleus.api.jdo.JDOPersistenceManagerFactory.freezeConfiguration(JDOPersistenceManagerFactory.java:775)
+	... 114 more
+Caused by: org.datanucleus.exceptions.NucleusException: Attempt to invoke the "HikariCP" plugin to create a ConnectionPool gave an error : The connection pool plugin of type "HikariCP" was not found in the CLASSPATH!
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.generateDataSources(ConnectionFactoryImpl.java:259)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.initialiseDataSources(ConnectionFactoryImpl.java:131)
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.<init>(ConnectionFactoryImpl.java:85)
+	... 132 more
+Caused by: org.datanucleus.exceptions.NucleusUserException: The connection pool plugin of type "HikariCP" was not found in the CLASSPATH!
+	at org.datanucleus.store.rdbms.ConnectionFactoryImpl.generateDataSources(ConnectionFactoryImpl.java:234)
+	... 134 more
+2018-12-12 18:28:16 INFO  SparkContext:54 - Invoking stop() from shutdown hook
+2018-12-12 18:28:16 INFO  AbstractConnector:318 - Stopped Spark@2d35442b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-12-12 18:28:16 INFO  SparkUI:54 - Stopped Spark web UI at http://10.68.110.37:4040
+2018-12-12 18:28:16 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2018-12-12 18:28:16 INFO  MemoryStore:54 - MemoryStore cleared
+2018-12-12 18:28:16 INFO  BlockManager:54 - BlockManager stopped
+2018-12-12 18:28:16 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2018-12-12 18:28:16 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2018-12-12 18:28:16 INFO  SparkContext:54 - Successfully stopped SparkContext
+2018-12-12 18:28:16 INFO  ShutdownHookManager:54 - Shutdown hook called
+2018-12-12 18:28:16 INFO  ShutdownHookManager:54 - Deleting directory /private/var/folders/l0/jr40crgn2vz64p3vyjwsttqr0000gn/T/spark-7d419d15-639e-4a3a-b0fa-a514b9094576
+2018-12-12 18:28:16 INFO  ShutdownHookManager:54 - Deleting directory /private/var/folders/l0/jr40crgn2vz64p3vyjwsttqr0000gn/T/spark-8cc1e5bb-b831-41a5-9b37-7715a74c04ed
